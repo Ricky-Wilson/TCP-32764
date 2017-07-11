@@ -1,0 +1,328 @@
+************* Module poc
+C: 14, 0: Line too long (123/100) (line-too-long)
+C: 15, 0: Line too long (103/100) (line-too-long)
+C: 16, 0: Line too long (122/100) (line-too-long)
+C: 17, 0: Line too long (108/100) (line-too-long)
+C: 19, 0: Line too long (125/100) (line-too-long)
+C: 20, 0: Line too long (129/100) (line-too-long)
+C: 21, 0: Line too long (106/100) (line-too-long)
+C: 23, 0: Line too long (102/100) (line-too-long)
+C: 25, 0: Line too long (101/100) (line-too-long)
+C: 26, 0: Line too long (124/100) (line-too-long)
+W: 31, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 32, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 33, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 35, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 36, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 37, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 38, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 40, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 41, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 41, 0: Unnecessary parens after 'assert' keyword (superfluous-parens)
+W: 43, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 44, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 46, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 47, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 48, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 49, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 50, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 52, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 57, 0: No space allowed before :
+try :
+    ^ (bad-whitespace)
+W: 58, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 60, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 60, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 61, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 66, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 67, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 68, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 71, 0: No space allowed before :
+if sig == 0x53634D4D :
+                     ^ (bad-whitespace)
+W: 72, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 73, 0: No space allowed before :
+elif sig == 0x4D4D6353 :
+                       ^ (bad-whitespace)
+W: 74, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 75, 0: No space allowed before :
+else :
+     ^ (bad-whitespace)
+W: 76, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 76, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 77, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 83, 0: No space allowed before :
+if args.is_vuln :
+                ^ (bad-whitespace)
+W: 84, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 84, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 85, 0: No space allowed before :
+elif args.shell :
+                ^ (bad-whitespace)
+W: 86, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 86, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 87, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 87, 0: No space allowed before :
+	while 1 :
+         ^ (bad-whitespace)
+W: 88, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 88, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 89, 0: No space allowed before :
+elif len(args.execute) :
+                       ^ (bad-whitespace)
+W: 90, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 91, 0: No space allowed before :
+elif args.print_conf :
+                     ^ (bad-whitespace)
+W: 92, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 93, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 94, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 95, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C: 95, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 96, 0: No space allowed before :
+elif args.get_credentials :
+                          ^ (bad-whitespace)
+W: 97, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 98, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 99, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W: 99, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:100, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:101, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:102, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:103, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:104, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:104, 0: Exactly one space required around comparison
+			if len(value)>0 and pattern.search(var):
+                ^ (bad-whitespace)
+W:105, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:106, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:107, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:108, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:109, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:110, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:110, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:112, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:113, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:114, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:115, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:115, 0: Unnecessary semicolon (unnecessary-semicolon)
+W:117, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:118, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:119, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:120, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:121, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:122, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:123, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:124, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:125, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:126, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:127, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:128, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:129, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:130, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:130, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:131, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:132, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:133, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:134, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:136, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:137, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:139, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:139, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:140, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:141, 0: No space allowed before :
+elif args.get_var is not None :
+                              ^ (bad-whitespace)
+W:142, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:143, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:143, 0: No space allowed before :
+	if len(response) == 0 :
+                       ^ (bad-whitespace)
+W:144, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:144, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:145, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:145, 0: No space allowed before :
+	else :
+      ^ (bad-whitespace)
+W:146, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:146, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:147, 0: No space allowed before :
+elif args.set_var is not None :
+                              ^ (bad-whitespace)
+W:148, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:149, 0: No space allowed before :
+elif args.message is not None :
+                              ^ (bad-whitespace)
+W:150, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+W:151, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:151, 0: No space allowed before :
+	if r != 0 :
+           ^ (bad-whitespace)
+W:152, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:152, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:153, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:153, 0: No space allowed before :
+	elif len(response) != 0 :
+                         ^ (bad-whitespace)
+W:154, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:154, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:155, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:155, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W:156, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:156, 0: No space allowed before :
+	else :
+      ^ (bad-whitespace)
+W:157, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:157, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:158, 0: No space allowed before :
+else :
+     ^ (bad-whitespace)
+W:159, 0: Found indentation with tabs instead of spaces (mixed-indentation)
+C:159, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:164, 0: Line too long (106/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Invalid constant name "parser" (invalid-name)
+C: 13, 0: Invalid constant name "command_group" (invalid-name)
+C: 28, 0: Invalid constant name "args" (invalid-name)
+W: 36, 2: Redefining name 'tmp' from outer scope (line 66) (redefined-outer-name)
+W: 40, 6: Redefining name 'ret_val' from outer scope (line 70) (redefined-outer-name)
+W: 40,15: Redefining name 'ret_len' from outer scope (line 70) (redefined-outer-name)
+W: 30,17: Redefining name 's' from outer scope (line 55) (redefined-outer-name)
+W: 33, 1: Redefining name 'r' from outer scope (line 64) (redefined-outer-name)
+W: 40, 1: Redefining name 'sig' from outer scope (line 70) (redefined-outer-name)
+W: 30,20: Redefining name 'endianness' from outer scope (line 72) (redefined-outer-name)
+C: 30, 0: Invalid argument name "s" (invalid-name)
+C: 30, 0: Missing function docstring (missing-docstring)
+C: 33, 1: Invalid variable name "r" (invalid-name)
+C: 38, 2: Invalid variable name "r" (invalid-name)
+C: 55, 0: Invalid constant name "s" (invalid-name)
+C: 59,23: Invalid variable name "v" (invalid-name)
+C: 64, 0: Invalid constant name "r" (invalid-name)
+C: 66, 1: Invalid constant name "tmp" (invalid-name)
+C: 70, 0: Invalid constant name "sig" (invalid-name)
+C: 70, 5: Invalid constant name "ret_val" (invalid-name)
+C: 70,14: Invalid constant name "ret_len" (invalid-name)
+C: 72, 1: Invalid constant name "endianness" (invalid-name)
+C: 74, 1: Invalid constant name "endianness" (invalid-name)
+C: 80, 0: Invalid constant name "s" (invalid-name)
+C: 92, 1: Invalid constant name "conf" (invalid-name)
+C: 93, 1: Invalid constant name "conf" (invalid-name)
+C: 94, 1: Invalid constant name "conf" (invalid-name)
+C: 97, 1: Invalid constant name "conf" (invalid-name)
+C: 98, 1: Invalid constant name "lines" (invalid-name)
+C: 99, 1: Invalid constant name "pattern" (invalid-name)
+C:100, 1: Invalid constant name "credentials" (invalid-name)
+C:113, 2: Invalid constant name "buf" (invalid-name)
+C:114, 2: Invalid constant name "msg" (invalid-name)
+C:118, 1: Invalid constant name "fdst" (invalid-name)
+C:122, 3: Invalid constant name "buf" (invalid-name)
+C:125, 3: Invalid constant name "cmd" (invalid-name)
+W:125,34: map/filter on lambda could be replaced by comprehension (deprecated-lambda)
+C:132, 4: Invalid constant name "s" (invalid-name)
+C:136, 4: Invalid constant name "ls" (invalid-name)
+C:137, 4: Invalid constant name "size" (invalid-name)
+C:142, 1: Invalid constant name "response" (invalid-name)
+C:148, 1: Invalid constant name "r" (invalid-name)
+C:150, 1: Invalid constant name "r" (invalid-name)
+C:150, 4: Invalid constant name "response" (invalid-name)
+
+
+Report
+======
+138 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |142    |72.45 |142      |=          |
++----------+-------+------+---------+-----------+
+|docstring |1      |0.51  |1        |=          |
++----------+-------+------+---------+-----------+
+|comment   |36     |18.37 |36       |=          |
++----------+-------+------+---------+-----------+
+|empty     |17     |8.67  |17       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |85     |85       |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |101    |101      |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++----------------------+------------+
+|message id            |occurrences |
++======================+============+
+|mixed-indentation     |91          |
++----------------------+------------+
+|invalid-name          |35          |
++----------------------+------------+
+|bad-whitespace        |20          |
++----------------------+------------+
+|superfluous-parens    |17          |
++----------------------+------------+
+|line-too-long         |11          |
++----------------------+------------+
+|redefined-outer-name  |7           |
++----------------------+------------+
+|unnecessary-semicolon |2           |
++----------------------+------------+
+|missing-docstring     |2           |
++----------------------+------------+
+|deprecated-lambda     |1           |
++----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -3.48/10 (previous run: -3.48/10, +0.00)
+
